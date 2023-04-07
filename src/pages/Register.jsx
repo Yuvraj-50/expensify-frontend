@@ -25,7 +25,7 @@ function Register() {
 
     const data = { name, email, password };
 
-    const res = await fetch(`${BASE_API_URL}/user/signup`, {
+    const res = await fetch(`${BASE_API_URL}/user/register`, {
       method: "POST",
       headers: {
         Accept: "application/json",

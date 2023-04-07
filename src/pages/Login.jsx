@@ -27,7 +27,7 @@ function Login() {
 
     const formData = { email: email.value, password: password.value };
 
-    const res = await fetch(`${BASE_API_URL}/user/signin`, {
+    const res = await fetch(`${BASE_API_URL}/user/login`, {
       method: "POST",
       headers: {
         Accept: "application/json",
